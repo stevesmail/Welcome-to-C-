@@ -1,0 +1,21 @@
+# include <iostream>  
+
+int main()
+{
+	int numbers1 { 0 }; 
+	int numbers2 {2}; 
+	int sum{ 0 }; 
+
+	std::cout << "input the first number1 : "; 
+	std::cin >> numbers1; 
+
+	std::cout << "input the second numbers2 : ";
+	std::cin >> numbers2; 
+
+	sum = numbers1 + numbers2; 
+
+	std::cout << "Sum is : " << sum << std::endl; 
+
+	return 0; 
+
+}
