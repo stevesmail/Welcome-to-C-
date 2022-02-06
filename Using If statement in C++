@@ -1,0 +1,40 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl; 
+
+int main()
+{
+	int numbers1{ 0 };
+	int numbers2{ 0 }; 
+	cout << "Enter two integers to compare:";
+	cin >> numbers1 >> numbers2; 
+
+	if (numbers1 == numbers2)
+	{
+		cout << numbers1 << "==" << numbers2 << endl;
+	}
+	if (numbers1 != numbers2)
+	{
+		cout << numbers1 << "!=" << numbers2 << endl;
+	}
+
+	if (numbers1 < numbers2)
+	{
+		cout << numbers1 << " < " << numbers2 << endl;
+	}
+	if (numbers1 > numbers2)
+	{
+		cout << numbers1 << " > " << numbers2 << endl;
+
+	}
+	if (numbers1 <= numbers2)
+	{
+		cout << numbers1 << "<=" << numbers2 << endl;
+	}
+	if (numbers1 >= numbers2)
+	{
+		cout << numbers1 << ">=" << numbers2 << endl;
+	}
+	return 0; 
+}
