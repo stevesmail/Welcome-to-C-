@@ -1,9 +1,9 @@
-#include <iostream> 
+#include <iostream>   // Enables program to output and input data 
 
 int main ()
 {
-   std::cout << "Welcome to C++"; 
+   std::cout << "Welcome to C++";  // display message 
    
-   return 0; 
+   return 0; // indicate that the program ends successfully 
    
-} 
+} // end function main 
